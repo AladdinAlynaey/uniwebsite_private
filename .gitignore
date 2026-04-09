@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Environment Variables
+.env
+.env.local
+
+# Data (JSON storage - user data)
+data/
+data copy/
+
+# Uploads
+app/static/uploads/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# PM2
+ecosystem.config.js
+
+# Load test
+load_test.py
+
+# Test guide (contains credentials)
+TEST_GUIDE.md
+test_*.py
+test_results.json
